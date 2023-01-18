@@ -18,7 +18,7 @@
             <div>
                 <label for="customRange1" class="form-label">Example range</label>
                 <input type="range" class="form-range" min="8" max="16" id="customRange1" onchange="range(this.value)">
-                <p>Rango de Password: <span id="range"></span></p>
+                <p>Rango de Password: <span id="range">8</span></p>
             </div>
             <div class="form-check">
                 <div>
@@ -37,8 +37,8 @@
             <div>
                 <button type="button" id="btnGenerate" class="btn btn-primary">Generar contraseña</button>
             </div>
-            <div>
-                <span id="password" class="password badge bg-success"></span>
+            <div class="d-flex justify-content-center">
+                <span onco id="password" class="password badge bg-success"></span>
             </div>
 
         </div>
